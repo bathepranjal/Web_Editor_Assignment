@@ -27,6 +27,7 @@ window.onload = function() {
     }, 1000);
 };
 
+//This will get Filereader instance
 if(window.FileReader) { 
     addEventHandler(window, 'load', function() {
       var drop   = document.getElementById('drop');
@@ -44,6 +45,7 @@ if(window.FileReader) {
     document.getElementById('status').innerHTML = 'Your browser does not support the HTML5 FileReader.';
   };
 
+  //Method added for cross-browser support
   function addEventHandler(obj, evt, handler) {
     if(obj.addEventListener) {
         // W3C method
