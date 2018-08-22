@@ -1,0 +1,19 @@
+{
+  "name": "web_editor_assignment",
+  "version": "1.0.0",
+  "description": "A markdown text-editor built in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bathepranjal/Web_Editor_Assignment.git"
+  },
+  "author": "Pranjal Bathe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bathepranjal/Web_Editor_Assignment/issues"
+  },
+  "homepage": "https://github.com/bathepranjal/Web_Editor_Assignment#readme"
+}
